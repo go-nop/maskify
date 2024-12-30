@@ -1,5 +1,9 @@
 
 # Maskify
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/go-nop/maskify/blob/main/LICENSE)
+[![Release](https://img.shields.io/github/v/release/anu1097/golang-masking-tool)](https://github.com/go-nop/maskify/releases/latest)
+![GolangVersion](https://img.shields.io/github/go-mod/go-version/go-nop/maskify)
+[![Go Reference](https://pkg.go.dev/badge/github.com/go-nop/maskify.svg)](https://pkg.go.dev/github.com/go-nop/maskify)
 
 `maskify` is a Go library used to mask fields in a struct. This library supports various types of masking such as censor, asterisk, email, credit card, phone, and zip code.
 
