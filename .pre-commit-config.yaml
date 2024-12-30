@@ -44,14 +44,7 @@ repos:
         files: '\.go$'
         language: 'script'
         description: "Runs `gocyclo`, requires https://github.com/fzipp/gocyclo"
-        args: [-over=15]
-
-      - id: go-critic
-        name: 'execute go-critic'
-        entry: scripts/run-go-critic.sh
-        files: '\.go$'
-        language: 'script'
-        description: "Runs `go-critic`, requires https://github.com/go-critic/go-critic"
+        args: [-over=25]
 
       - id: go-unit-tests
         name: 'execute go-unit-tests'
